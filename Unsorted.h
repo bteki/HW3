@@ -71,19 +71,6 @@ public:
     //       One and only one element in list has a key matching item's key.
     // Post: No element in list has a key matching item's key.
 
-    void ResetList();
-    // Function: Initializes current position for an iteration through the list.
-    // Pre:  List has been initialized.
-    // Post: Current position is prior to list.
-
-    ItemType GetNextItem();
-    // Function: Gets the next element in list.
-    // Pre:  List has been initialized and has not been changed since last call.
-    //       Current position is defined.
-    //       Element at current position is not last in list.
-    //
-    // Post: Current position is updated to next position.
-    //       item is a copy of element at current position.
 
 private:
     int length;

@@ -4,11 +4,11 @@
  * Instructor Dr. Fay Zhong
  * 2/5/2023
  */
-
-#include <iostream>
-#include <fstream>
 #ifndef ITEMTYPE_H
 #define ITEMTYPE_H
+#include <iostream>
+#include <fstream>
+
 
 const int MAX_ITEMS = 5;
 enum RelationType  {LESS, GREATER, EQUAL};
